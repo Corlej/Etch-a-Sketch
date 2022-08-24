@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-a-Sketch</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Dosis:wght@500&display=swap');        </style>
+</head> 
+<body>
+    <main class="main">
+        <div class="topcontainer">
+            <h1 class="title">Etch-a-Sketch</h1>
+            </div>
+        <div class="sidecontainer">
+            <div class="grid"></div>
+        </div>
+        <div class="bottomcontainer">
+            <div class="leftside">
+                <div class="leftcircle"></div>
+            </div>
+            <div class="settings">
+                <input id="colorPicker" type="color" value="#333333">
+                <div id="colorbtn">Color</div>
+                <div id="rainbowbtn">Rainbow</div>
+                <div id="eraserbtn">Eraser</div>
+                <div id="slider">
+                    <input id="sizeSlider" type="range" value="2" min="2" max="160">
+                    <div id="sizeValue" class="size-value">2 x 1</div>
+                </div>
+                <div id="resetbtn">Reset</div>
+            </div>
+            <div class="rightside">
+                <div class="rightcircle"></div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <p>Copyright @
+            <script>
+                document.write(new Date().getFullYear())
+            </script>
+            Jack Corle
+        </p>
+        <a href></a>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>
