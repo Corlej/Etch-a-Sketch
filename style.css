@@ -7,10 +7,8 @@
   --secondary-light: #fefefe;
   --background:#d5f3f5;
   --foreground: #ed5a55;
-  --settings: #ed716d;
   --yellow: #f9f2a6;
   --font: 'Dosis', sans-serif;
-
 }
 
 body {
@@ -33,7 +31,6 @@ body {
   display: grid;
   width: 800px;
   height: 400px;
-  border-radius: 20px;
   background-color: var(--secondary-light);
   box-shadow: var(--secondary-dark) 0px 2px 4px;
 }
